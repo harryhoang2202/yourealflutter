@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "574539476225",
+    "project_id": "youreal-dev",
+    "storage_bucket": "youreal-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574539476225:android:42d4d15ca7c385fcd53f00",
+        "android_client_info": {
+          "package_name": "vn.youreal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574539476225-31t02e6pvj446ktr5loc6vfc2cmo8a04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.youreal",
+            "certificate_hash": "5ffd3a1cf3d7b174b02f709525bce32e337e0ec4"
+          }
+        },
+        {
+          "client_id": "574539476225-lgb615a9ev3efntfugfdjqc2kqilsrdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.youreal",
+            "certificate_hash": "5c86d8af53de67390b9a1ff9b56369d1aee7a95b"
+          }
+        },
+        {
+          "client_id": "574539476225-s4e9csjnp9u9ffl3o3og3u2100bjm2d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANTayq8I_ltnGh-h47YBxEPcuW5ZJMmX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574539476225-s4e9csjnp9u9ffl3o3og3u2100bjm2d6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "574539476225-8pkuepd42vc0ii9ndqkhkevola4euqtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.youreal.youreal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

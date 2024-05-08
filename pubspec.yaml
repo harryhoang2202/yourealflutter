@@ -1,0 +1,169 @@
+name: youreal
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  after_layout: ^1.2.0
+  awesome_dialog: ^3.0.2
+  another_flushbar: ^1.12.29
+  transparent_image: ^2.0.0
+
+  cached_network_image: ^3.2.2
+  carousel_slider: ^4.1.1
+  circular_reveal_animation: ^2.0.1
+  flutter_cache_manager: ^3.3.0
+
+  dropdown_search: ^5.0.2
+  emoji_picker_flutter: ^1.3.1
+  equatable: ^2.0.5
+  extended_masked_text: ^2.3.1
+  flutter_spinkit: ^5.1.0
+  freezed_annotation: ^2.1.0
+  cupertino_icons: ^1.0.2
+
+  tvt_camera:
+    git:
+      url: https://github.com/team-fluter/TVTPackages.git
+      path: tvt_camera
+  tvt_tab_bar:
+    git:
+      url: https://github.com/team-fluter/TVTPackages.git
+      path: tvt_tab_bar
+  tvt_button:
+    git:
+      url: https://github.com/team-fluter/TVTPackages.git
+      path: tvt_button
+  tvt_gallery:
+    git:
+      url: https://github.com/team-fluter/TVTPackages.git
+      path: tvt_gallery
+  tvt_input_keyboard:
+    git:
+      url: https://github.com/team-fluter/TVTPackages.git
+      path: tvt_input_keyboard
+  hive_flutter: ^1.1.0
+  flutter_screenutil: ^5.5.4
+
+  flutter_picker:
+    git:
+      url: https://github.com/yangyxd/flutter_picker.git
+
+  image_picker: ^0.8.6
+  flutter_rating_bar: ^4.0.1
+  flutter_animated_dialog: ^2.0.1
+  flutter_custom_clippers: ^2.0.0
+  flutter_keyboard_visibility: ^5.3.0
+  font_awesome_flutter: ^10.2.1
+  file_picker: ^5.2.2
+  flutter_staggered_grid_view: ^0.4.1
+  flutter_native_image: ^0.0.6+1
+  camera: any
+  google_maps_flutter: ^2.2.1
+  http: ^0.13.5
+
+  intl: ^0.17.0
+
+  local_auth: ^2.1.2
+  localstorage: ^4.0.0+1
+  lottie: ^1.4.3
+
+  modal_bottom_sheet: ^2.1.2
+  modal_progress_hud_nsn: ^0.3.0
+
+  open_filex: ^4.3.1
+
+  percent_indicator: ^4.2.2
+
+  path: ^1.8.2
+
+  pull_to_refresh: ^2.0.0
+
+  shared_preferences: ^2.0.15
+  signalr_core: ^1.1.1
+  share_plus: ^4.4.0
+
+  mime: ^1.0.2
+
+  tuple: ^2.0.0
+
+  url_launcher: ^6.1.6
+  uuid: ^3.0.4
+  shimmer: ^2.0.0
+  signature: ^5.2.1
+
+  sliver_tools: ^0.2.8
+  infinite_scroll_pagination: ^3.2.0
+  clipboard: ^0.1.3
+  flutter_html: any
+  hive: ^2.2.3
+
+  flutter_svg: ^1.1.6
+  flutter_bloc: ^8.1.1
+  dio: ^4.0.6
+
+  provider: ^6.0.4
+  path_provider: ^2.0.11
+  flutter_local_notifications: ^12.0.3
+  sliding_up_panel:
+    git:
+      url: https://github.com/Mayb3Nots/sliding_up_panel
+      ref: 783fc25bee8d67f21f999ee1108199dd1b560150
+
+  wechat_assets_picker: ^8.1.4
+
+  firebase_core: ^2.4.0
+  firebase_messaging: ^14.2.0
+
+  # add injectable to your dependencies
+  injectable: ^1.5.4
+  # add get_it
+  get_it: ^7.2.0
+  json_annotation: ^4.7.0
+  pretty_dio_logger: ^1.1.1
+  dartz: ^0.10.1
+  firebase_analytics: ^10.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # add the generator to your dev_dependencies
+  injectable_generator:
+  hive_generator: ^1.1.3
+  flutter_lints: ^2.0.1
+  freezed: ^2.1.0
+  build_runner: ^2.2.1
+  json_serializable: ^6.4.0
+  flutter_native_splash: ^2.2.9
+  flutter_launcher_icons: ^0.10.0
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  android: true
+  ios: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/iconapp.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/
+  fonts:
+    - family: Cutie Biscuit
+      fonts:
+        - asset: fonts/cutie_biscuit.ttf
